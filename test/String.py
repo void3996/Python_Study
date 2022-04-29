@@ -91,3 +91,22 @@ number = 3
 a = "I eat %d apples." % number
 print(a)
 
+    #포매팅 연산자 %d와 %를 같이 쓸 때는 %%를 쓴다                                                                                                                                                                                                              
+a = "Error is %d%%." % 98
+print(a)
+
+    #포맷 코드와 숫자 함께 사용하기
+    #1. 정렬과 공백
+a = "%10s" % "hi"
+print(a)
+
+a = "%-10sjane" % 'hi'
+print(a)
+
+    #2. 소수점 표현
+a = "%0.4f" % 3.42134234
+print(a)
+
+a = "%10.4f" % 3.42134234
+print(a)
+
