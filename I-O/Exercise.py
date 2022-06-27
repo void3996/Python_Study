@@ -1,5 +1,6 @@
 #Q1 주어진 자연수가 홀수인지 짝수인지 판별해주는 함수(is_odd)를 작성해보자
 from dataclasses import replace
+from genericpath import exists
 from unittest import result
 
 
@@ -96,3 +97,5 @@ f.close()
 
 with open('test1.txt', 'w') as f:
   f.write(body)
+
+
